@@ -17,12 +17,13 @@ function TinderCards() {
   const getRestaurants = () => {
     return fetch("https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=Nashville", {
       headers: {
-        "Authorization": 'Bearer B1GNVJO0jr_wz1D2y9ciNl8X_M1Htz7fB9mT9UDzUgxgv8pjFkvd9Afnggl-wt55mQ_kMHWp14tdAxutRQYZZ7GJtm8wi_HwzEaVpzA1-wP37g-D2XV76SCUkVkxYHYx',
+        "Authorization": 'Bearer**',
         "Content-Type": 'application/json'
       }
     })
     .then(response => response.json())
     .then(setRestaurants)
+    .then(console.log(restaurants))
   }
 
   return (
