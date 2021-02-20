@@ -22,8 +22,6 @@ function TinderCards() {
       }
     })
     .then(response => response.json())
-    .then(setRestaurants)
-    .then(console.log(restaurants))
   }
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import IconButton from '@material-ui/core/IconButton';
-
+import RestaurantIcon from '@material-ui/icons/Restaurant';
 import PersonIcon from '@material-ui/icons/Person';
 import ForumIcon from '@material-ui/icons/Forum';
 
@@ -10,11 +10,11 @@ function Header() {
     return (
       <div className="header">
           <IconButton>
-              <PersonIcon className="header__icon" fontSize="large" />
+              <PersonIcon className="header__icon" fontSize="medium" />
           </IconButton>
-          <img className="header__logo" src="https://cdn.worldvectorlogo.com/logos/tinder-2.svg" alt="tinder logo" />
+          <RestaurantIcon className="header__icon header__logo" fontSize="large" />
           <IconButton>
-              <ForumIcon className="header__icon" fontSize="large" />
+              <ForumIcon className="header__icon" fontSize="medium" />
           </IconButton>
       </div>
     )
