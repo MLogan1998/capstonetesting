@@ -1,49 +1,10 @@
-.homescreen__header{
-    background-color: rgb(102, 102, 102);
-    height: 60vh;
-    clip-path: polygon(100% 0, 100% 53%, 0 100%, 0 1%);
-    position: relative;
-    margin-top: -4rem;
-}
-
-
-.homescreen__header:after {
-  -webkit-clip-path: polygon(100% 24%, 100% 47%, 0 100%, 0 76%);
-  clip-path: polygon(100% 29%, 100% 47%, 0 100%, 0 76%);
-  background: #58ccf7;
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 22%;
-  right: 0;
-  height: 100%;
-  display: block;
-  z-index: 9;
-}
-
-.heading__box {
-  position: absolute;
-  top: 36%;
-  left: 21%;
-}
-
-
-.homescreen__heading {
-  text-transform: uppercase;
-  font-size: 7rem;
-  color: white;
-  letter-spacing: 1.84rem;
-  font-family: "Lato";
-  font-weight: 700;
-  text-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-}
-
 .homescreen__footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   width: 40vw;
+  height: 29.1vh;
   margin: 20px auto 10px auto;
 }
 
@@ -51,8 +12,8 @@
 .btn:link,
 .btn:visited {
       font-family: "Lato";
-      color: rgb(102, 102, 102);
-      background-color: white;
+      color: white;;
+      background-color: #58ccf7;
       font-weight: 900;
       text-transform: uppercase;
       text-decoration: none;
@@ -63,7 +24,8 @@
       font-size: 3rem;
       margin-bottom: 4.7rem;
       box-shadow: 0 .7rem 1rem rgba(0, 0, 0, .2);
-      border: 1.5px solid #58ccf7;
+      letter-spacing: 1rem;
+      /* border: 1.5px solid rgb(102, 102, 102); */
 }
 
   .btn:hover {
