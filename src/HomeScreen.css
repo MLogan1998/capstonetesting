@@ -12,8 +12,8 @@
 .btn:link,
 .btn:visited {
       font-family: "Lato";
-      color: white;;
-      background-color: #58ccf7;
+      color: white;
+      background-color: #F05454;
       font-weight: 900;
       text-transform: uppercase;
       text-decoration: none;
@@ -25,15 +25,15 @@
       margin-bottom: 4.7rem;
       box-shadow: 0 .7rem 1rem rgba(0, 0, 0, .2);
       letter-spacing: 1rem;
-      /* border: 1.5px solid rgb(102, 102, 102); */
+      /* border: 1.5px solid #F05454;  */
 }
 
-  .btn:hover {
+  /* .btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-  }
-
-  .btn:active {
+  } */
+/* 
+.btn:active {
     transform: translateY(-1px);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-}
+} */

@@ -7,8 +7,8 @@ function HomeHeader() {
     <div className="homescreen">
       <div className="homescreen__header">
           <div className="heading__box">
-          <h1 className="homescreen__heading">Hangry</h1>
-          <p className="footer__slogan primary__blue">Whats for Dinner?</p>
+          <h1 className="homescreen__heading">seekr</h1>
+          <p className="footer__slogan primary__blue">app slogan</p>
           </div>
       </div>    
     </div>

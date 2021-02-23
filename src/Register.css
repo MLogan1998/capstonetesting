@@ -1,0 +1,118 @@
+.form__group:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  font-size: 2.3rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  border: none;
+  background-color: white;
+  font-family: 'Lato';
+  color: inherit;
+  width: 90%;
+  display: block;
+  border-bottom: 3px solid transparent;
+  transition: all .3s;
+}
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  border-bottom: 3px solid #55c57a;
+}
+
+.form__input:focus:invalid {
+  border-bottom: 3px solid #ff7730;
+}
+
+.form__input:valid {
+  background-color: white;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #222831; }
+
+.form__label {
+  color: #30475E;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Lato';
+  margin-left: .3em;
+  margin-top: .7rem;
+  display: block;
+  transition: all .3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+}
+
+.form__radio-group {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 4rem;;
+}
+  
+  .form__radio-input {
+    display: none; 
+}
+  
+  .form__radio-label {
+    font-size: 2.3rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 4.5rem;
+    font-family: 'Lato';
+    font-weight: bold;
+  }
+  
+  .form__radio-button {
+    height: 4rem;
+    width: 4rem;
+    border: 3px solid #30475E;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -.4rem;
+    left: 0;
+  }
+
+    .form__radio-button::after {
+      content: '';
+      display: block;
+      height: 1rem;
+      width: 1rem;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #30475E;
+      opacity: 0;
+      transition: opacity .2s; }
+  
+  .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
+    opacity: 1; }
+    .btn-form,
+    .btn-form:link,
+    .btn-form:visited {
+          text-align: center;
+          font-family: "Lato";
+          color: white;
+          background-color: #F05454;
+          font-weight: 900;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 1rem 3rem;
+          border-radius: 10rem;
+          position: relative;
+          font-size: 2rem;
+          box-shadow: 0 .7rem 1rem rgba(0, 0, 0, .2);
+          letter-spacing: 1rem;
+          margin-top: 2rem;
+          margin-right: 5.5rem;
+    }

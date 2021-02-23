@@ -1,16 +1,37 @@
+/* COLOR PALLETE GREY - BLUE
+PRIMARY HEADER - background-color: rgb(102, 102, 102)
+HEADER BORDER  - background: #58ccf7
+
+COLOR PALLETE BLUE - GREY
+PRIMARY HEADER - background: linear-gradient(to right bottom, #0083B0, #00B4DB);
+PRIMARY COLOR - #0083B0
+HEADER BORDER - rgb(102, 102, 102);
+
+COLOR PALLETE GREEN - ORANGE
+PRIMARY HEADER: background: linear-gradient(to right bottom, #A3D2CA, #5EAAA8)
+PRIMARY ORANGE: #EB5E0B;
+
+COLOR PALLETE DBLUE - RED
+PRIMARY HEADER -  background: linear-gradient(to right bottom, #30475E, #222831);
+PRIMARY RED - #F05454;
+*/
+
+
 .homescreen__header{
-  background-color: rgb(102, 102, 102);
+  background-image: linear-gradient(to right bottom, #30475E, #222831); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 49.5vh;
   clip-path: polygon(100% 0, 100% 53%, 0 100%, 0 1%);
   position: relative;
   margin-top: -4rem;
+  background-size: cover;
+  background-position: top;
 }
 
 
 .homescreen__header:after {
 -webkit-clip-path: polygon(100% 29%, 100% 47%, 0 100%, 0 76%);
 clip-path: polygon(100% 29%, 100% 47%, 0 100%, 0 76%);
-background: #58ccf7;
+background: #F05454;
 content: '';
 position: absolute;
 left: 0;
@@ -25,15 +46,16 @@ z-index: 9;
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-50%, -80%);
+transform: translate(-50%,-110%);
+text-align: center;
 }
 
 
 .homescreen__heading {
-text-transform: uppercase;
+text-transform: lowercase;
 font-size: 10.5rem;
 color: white;
-letter-spacing: 1.84rem;
+letter-spacing: 4rem;
 font-family: "Lato";
 font-weight: 700;
 text-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
@@ -41,8 +63,7 @@ text-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
 
 .footer__slogan {
 margin-top: 4px;
-bottom: 1.4rem;
-font-size: 3rem;
+font-size: 2.5rem;
 font-weight: bolder;
 text-transform: uppercase;
 font-family: "Lato";
@@ -51,5 +72,5 @@ letter-spacing: 1.3rem;
 
 
 .primary__blue {
-color:#58ccf7;
+color:#F05454
 }
