@@ -7,6 +7,7 @@ import HomeScreen from './HomeScreen'
 import HomeFooter from './HomeFooter'
 import HomeHeader from './HomeHeader'
 import Register from './Register'
+import AltHome from './AltHome'
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 
@@ -19,7 +20,7 @@ function App() {
                     <Register />
                 </Route>
                 <Route path="/">
-                    <HomeScreen />
+                    <AltHome />
                 </Route>
             </Switch>
         </Router>
