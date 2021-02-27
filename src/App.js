@@ -8,6 +8,9 @@ import HomeFooter from './HomeFooter'
 import HomeHeader from './HomeHeader'
 import Register from './Register'
 import AltHome from './AltHome'
+import HomeBoy from './HomeBoy'
+import CreateJob from './CreateJob'
+import CreateProfile from './CreateProfile'
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 
@@ -18,6 +21,12 @@ function App() {
             <Switch>
                 <Route path="/register">
                     <Register />
+                </Route>
+                <Route path="/homeboy">
+                    <HomeBoy />
+                </Route>
+                <Route path="/swipe">
+                    <TinderCards />
                 </Route>
                 <Route path="/">
                     <AltHome />

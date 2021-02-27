@@ -18,7 +18,10 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: rgb(245, 245, 245);
+    background-image: linear-gradient(to right bottom, #333d77, #001431);
+    height: 100vh;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 

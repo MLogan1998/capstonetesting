@@ -10,7 +10,7 @@ import './Register.css'
 function Register() {
     return (
       <div>
-          <HomeHeader />
+          {/* <HomeHeader />
               <div className="homescreen__footer">
                   <form action="#" className="form">
                       <div className="form__group">
@@ -46,7 +46,7 @@ function Register() {
                       </div>
                   </form>
               </div>
-          <HomeFooter />
+          <HomeFooter /> */}
       </div>
     )
 }
