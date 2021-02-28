@@ -40,15 +40,23 @@ function TinderCards() {
     }
   }
 
+  const onClick = () => {
+    console.log('click')
+  }
+
   return (
     <div>
       <NavButton />
         <div className="tinderCards__cardContainer">
           {profile.map(pro => (
-
                 <TinderCard className="swipe" key={pro.name} preventSwipe={['up', 'down']} onSwipe={onSwipe}>
-                  <div className="card" style={{backgroundImage: `url(${pro.project_screenshot})`}}>
-                    <div className="project__info">
+                  <div className="card">
+                    
+                  <div className="img-container" style={{backgroundImage: `url(${pro.project_screenshot})`}}></div>
+                  
+                    <div className="project__info" onClick={onClick}>
+                      <div className="icon-circle"><i class="fas fa-info"></i> </div>
+                      
                       <h3 className="pro__name">{pro.project_name}</h3>
                       <o className="pro__des">{pro.project_description}</o>
                     </div>
