@@ -10,7 +10,7 @@ function InfoModal(props) {
   }, [])
 
   return (
-    <Modal show={props.modalShow} onHide={props.handleModalClose} className="modal-container">
+    <Modal show={props.modalShow} onHide={() => props.handleModalClose(props.pro.id) } className="modal-container">
       <Modal.Body className="modal-body">
         <h3 className="pro__name">{props.pro.project_name}</h3>
       </Modal.Body>
