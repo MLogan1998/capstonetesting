@@ -30,3 +30,14 @@ body {
       font-size: 31.25%;
   }
 }
+
+@media only screen and (min-width:900px) {
+    html {
+        font-size: 42.5%;
+    }
+  }
+  @media only screen and (min-width:900px) {
+   .swipe {
+        width: 22.5% !important;
+    }
+  }

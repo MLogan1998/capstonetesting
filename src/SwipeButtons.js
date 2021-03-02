@@ -33,5 +33,4 @@ function SwipeButtons() {
 
 }
 
-
 export default SwipeButtons

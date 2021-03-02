@@ -19,6 +19,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover !important;
+  background-color: white;
 }
 .card > h3 {
   position: absolute;
